@@ -26,7 +26,9 @@ const HomePage = () => {
         if (error.response?.status === 429) {
           setIsRateLimited(true);
         } else {
-          toast.error("Failed to load notes");
+          toast("Create your first note!", {
+            icon: "📝",
+          });
         }
       } finally {
         setLoading(false);
