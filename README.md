@@ -62,12 +62,12 @@ Ensure you have the following installed:
 1.  **Clone the Repository**
     ```bash
     git clone https://github.com/Prajwal-dev-dsa/QUICK-NOTES-MERN
-    cd quicknotes
+    cd ../quicknotes
     ```
 
 2.  **Setup Backend (Server)**
     ```bash
-    cd backend # or server
+    cd ../backend # or server
     npm install
     ```
     Create a file named **`.env`** in the backend root directory and configure your environmental variables:
@@ -81,7 +81,7 @@ Ensure you have the following installed:
 
 3.  **Setup Frontend (Client)**
     ```bash
-    cd frontend # or client
+    cd ../frontend # or client
     npm install
     ```
 
@@ -89,12 +89,12 @@ Ensure you have the following installed:
     * **Start Backend Server:**
         ```bash
         cd ../backend
-        npm start # or node server.js/index.js
+        npm run dev 
         ```
     * **Start Frontend Client:**
         ```bash
         cd ../frontend
-        npm start
+        npm run dev
         ```
     The frontend application will typically be accessible at `http://localhost:5173`.
     The backend application will typically be accessible at `http://localhost:5000`.
